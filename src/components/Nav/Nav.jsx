@@ -28,7 +28,7 @@ function Nav({iconColor}) {
 
   return (
     <nav className="z-10 flex items-center justify-between w-full text-[15px]  lg:text-xl overflow-x-hidden">
-      <div className="logo cursor-pointer">Soulace by Modern Space</div>
+      <a href="/" className="logo cursor-pointer">Soulace by Modern Space</a>
       <div>
         <div className="lists list-none hidden lg:flex items-center justify-between w-[55vw]">
           <a href="/" className="list border-b-2 border-b-white cursor-pointer">
